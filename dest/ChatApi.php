@@ -10,11 +10,11 @@ $token = $_ENV['RPA_TOKEN'];
 $today = Carbon::now();
 $start_of_month = Carbon::now()->startOfMonth();
 if($start_of_month == $today){
-  $accout_ids = [2157434,2458725,3056863,4139020];
+  $accout_ids = [2157434,2458725,3056863,4139020,7613810];
 } else {
   $accout_ids = [2157415,3324425,2447973,4205422,6632060];
 }
-$roomid = 66962415;
+$roomid = 242709998;
 $url = 'https://api.chatwork.com/v2/rooms/'.$roomid.'/messages';
 $message = '[hr]';
 foreach($accout_ids as $accout_id){
