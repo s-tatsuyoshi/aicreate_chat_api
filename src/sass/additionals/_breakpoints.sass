@@ -1,0 +1,33 @@
+//- xs
+@mixin xs_only
+  @media screen and (max-width: 639px)
+    @content
+
+//- s for tablet
+@mixin sp_up
+  @media screen and (min-width: 640px)
+    @content
+@mixin sp_only
+  @media screen and (min-width: 640px) and (max-width: 959px)
+    @content
+
+//- m for pc
+@mixin md_up
+  @media screen and (min-width: 960px)
+    @content
+@mixin md_only
+  @media screen and (min-width: 960px) and (max-width: 1199px)
+    @content
+
+//- l for wide pc
+@mixin lg_up
+  @media screen and (min-width: 1200px)
+    @content
+@mixin lg_only
+  @media screen and (min-width: 1200px) and (max-width: 1599px)
+    @content
+
+//- xl for extra wide pc
+@mixin xl_up
+  @media screen and (min-width: 1600px)
+    @content

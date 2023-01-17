@@ -1,0 +1,1 @@
+<div id="offcanvas" uk-offcanvas="overlay: true"><div class="uk-offcanvas-bar"><button class="uk-offcanvas-close" type="button" uk-close></button><nav class="offcanvas-navigation"><p>Offcanvas</p></nav></div></div>

@@ -1,0 +1,13 @@
+database/
+src/node_modules/
+dest/vendor/
+
+*.log
+*.sql
+*.sqlite
+*.psd
+*.csv
+.env
+
+# ignore compiled files
+psd/

@@ -1,0 +1,28 @@
+/*
+  common 
+/*---------------------------------------*/
+body
+  text-rendering: optimizeLegibility
+  font-smoothing: antialiased
+  -webkit-font-smoothing: antialiased
+  color: $font
+
+  /*
+    mq
+  /*---------------------------------------*/
+  font-size: 14px
+  line-height: 1.6
+  +md_up
+    font-size: 16px
+    letter-spacing: 1px
+    line-height: 2
+
+
+/*
+  util 
+/*---------------------------------------*/
+@mixin transition
+  transition: .3s ease
+
+@mixin box-shadow($dp: 1)
+  box-shadow: 0 3px*$dp 6px*$dp -3px*$dp rgba($black, .8)
